@@ -16,98 +16,98 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
-                <img src=" img/img/logo-confiia.png" alt="CONFIIA Logo" height="40">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">Sobre el Proyecto</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#team">Equipo</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#objectives">Objetivos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#methodology">Metodología</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#outputs">Resultados</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" onclick="toggleLanguage()">
-                            <i class="fas fa-globe"></i> EN
-                        </a>
-                    </li>
-                </ul>
-            </div>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo-confiia.png" alt="CONFIIA Logo" height="40">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="index.html" data-i18n="nav.home">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about" data-i18n="nav.about">Sobre el Proyecto</a></li>
+                <li class="nav-item"><a class="nav-link" href="#team" data-i18n="nav.team">Equipo</a></li>
+                <li class="nav-item"><a class="nav-link" href="#objectives" data-i18n="nav.objectives">Objetivos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#methodology" data-i18n="nav.methodology">Metodología</a></li>
+                <li class="nav-item"><a class="nav-link" href="#outputs" data-i18n="nav.outputs">Resultados</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact" data-i18n="nav.contact">Contacto</a></li>
+                <li class="nav-item">
+                    <a class="nav-link lang-btn" href="#" onclick="toggleLanguage(); return false;">
+                        <i class="fas fa-globe"></i> <span>EN</span>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Hero Section -->
-    <section class="hero-section">
-        <div class="container">
-            <div class="row align-items-center min-vh-100">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <h1 class="display-4 fw-bold mb-4">CONFIIA</h1>
-                    <h2 class="h3 mb-4">Confianza y Nuevas Formas de Integración de la Inteligencia Artificial</h2>
-                    <p class="lead mb-4">Marco metodológico para superar barreras no-tecnológicas en la adopción de la IA médica</p>
-                    <div class="hero-buttons">
-                        <a href="#about" class="btn btn-primary btn-lg me-3">Conocer más</a>
-                        <a href="#contact" class="btn btn-outline-primary btn-lg">Contacto</a>
-                    </div>
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="container">
+        <div class="row align-items-center min-vh-100">
+            <div class="col-lg-6" data-aos="fade-right">
+                <h1 class="display-4 fw-bold mb-4" data-i18n="hero.title">CONFIIA</h1>
+                <h2 class="h3 mb-4" data-i18n="hero.subtitle">Confianza y Nuevas Formas de Integración de la Inteligencia Artificial</h2>
+                <p class="lead mb-4" data-i18n="hero.description">Marco metodológico para superar barreras no-tecnológicas en la adopción de la IA médica</p>
+                <div class="hero-buttons">
+                    <a href="#about" class="btn btn-primary btn-lg me-3" data-i18n="hero.btnMore">Conocer más</a>
+                    <a href="#contact" class="btn btn-outline-primary btn-lg" data-i18n="hero.btnContact">Contacto</a>
                 </div>
-                <div class="col-lg-6" data-aos="fade-left">
-                    <div class="hero-image">
-                        <img src="img/logo-confiia.png" alt="CONFIIA Network" class="img-fluid">
-                    </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="hero-image">
+                    <img src="img/logo-confiia.png" alt="CONFIIA Network" class="img-fluid">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <!-- About Section -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12" data-aos="fade-up">
-                    <h2 class="section-title text-center mb-5">Sobre el Proyecto</h2>
-                </div>
+<!-- About Section -->
+<section id="about" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" data-aos="fade-up">
+                <h2 class="section-title text-center mb-5" data-i18n="about.title">Sobre el Proyecto</h2>
             </div>
-            <div class="row">
-                <div class="col-lg-6" data-aos="fade-right">
-                    <h3>¿Qué es CONFIIA?</h3>
-                    <p>CONFIIA es un proyecto de investigación financiado por el Ministerio de Ciencia, Innovación y Universidades de España que busca desarrollar un marco metodológico integral para identificar y superar las barreras no tecnológicas en la adopción de la inteligencia artificial en el ámbito médico.</p>
-                    <p>El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos Lingüísticos (GMLs) e IA generativa en medicina.</p>
-                </div>
-                <div class="col-lg-6" data-aos="fade-left">
-                    <div class="info-cards">
-                        <div class="info-card mb-3">
-                            <i class="fas fa-calendar-alt"></i>
-                            <div>
-                                <h5>Duración</h5>
-                                <p>Septiembre 2025 - Agosto 2028</p>
-                            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right">
+                <h3 data-i18n="about.what">¿Qué es CONFIIA?</h3>
+                <p data-i18n="about.description1">CONFIIA es un proyecto de investigación financiado por el Ministerio de Ciencia, Innovación y Universidades de España que busca desarrollar un marco metodológico integral para identificar y superar las barreras no tecnológicas en la adopción de la inteligencia artificial en el ámbito médico.</p>
+                <p data-i18n="about.description2">El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos Lingüísticos (GMLs) e IA generativa en medicina.</p>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="info-cards">
+                    <div class="info-card mb-3">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div>
+                            <h5 data-i18n="about.duration">Duración</h5>
+                            <p data-i18n="about.durationText">Septiembre 2025 - Agosto 2028</p>
                         </div>
-                        <div class="info-card mb-3">
-                            <i class="fas fa-university"></i>
-                            <div>
-                                <h5>Instituciones</h5>
-                                <p>Universidad de Granada, Universidad Pontificia Comillas, CSIC, Universidad Complutense de Madrid</p>
-                            </div>
+                    </div>
+                    <div class="info-card mb-3">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <h5 data-i18n="about.institutions">Instituciones</h5>
+                            <p data-i18n="about.institutionsText">Universidad de Granada, Universidad Pontificia Comillas, CSIC</p>
                         </div>
-                        <div class="info-card mb-3">
-                            <i class="fas fa-microscope"></i>
-                            <div>
-                                <h5>Área temática</h5>
-                                <p>Salud, IA, Filosofía, Ciencias Cognitivas</p>
-                            </div>
+                    </div>
+                    <div class="info-card mb-3">
+                        <i class="fas fa-microscope"></i>
+                        <div>
+                            <h5 data-i18n="about.area">Área temática</h5>
+                            <p data-i18n="about.areaText">Salud, IA, Filosofía, Ciencias Cognitivas</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Team Section -->
     <section id="team" class="py-5 bg-light">
