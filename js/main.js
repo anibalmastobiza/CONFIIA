@@ -31,7 +31,7 @@ const translations = {
         'about.title': 'Sobre el Proyecto',
         'about.what': '¿Qué es CONFIIA?',
         'about.description1': 'CONFIIA es un proyecto de investigación financiado por el Ministerio de Ciencia, Innovación y Universidades, Agencia Estatal de Investigación, Gobierno de España y co-financiado por el Fondo Social Europeo Plus que busca desarrollar un marco metodológico integral para identificar y superar las barreras no tecnológicas en la adopción de la inteligencia artificial en el ámbito médico.',
-        'about.description2': 'El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos Lingüísticos (GMLs) e IA generativa en medicina.',
+        'about.description2': 'El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos de Lenguaje (GML) e IA generativa en medicina.',
         'about.duration': 'Duración',
         'about.durationText': 'Septiembre 2025 - Agosto 2028',
         'about.institutions': 'Instituciones',
