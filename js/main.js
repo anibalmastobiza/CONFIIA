@@ -30,7 +30,7 @@ const translations = {
         // About Section
         'about.title': 'Sobre el Proyecto',
         'about.what': '¿Qué es CONFIIA?',
-        'about.description1': 'CONFIIA es un proyecto de investigación financiado por el Ministerio de Ciencia, Innovación y Universidades de España que busca desarrollar un marco metodológico integral para identificar y superar las barreras no tecnológicas en la adopción de la inteligencia artificial en el ámbito médico.',
+        'about.description1': 'CONFIIA es un proyecto de investigación financiado por el Ministerio de Ciencia, Innovación y Universidades, Agencia Estatal de Investigación, Gobierno de España y co-financiado por el Fondo Social Europeo Plus que busca desarrollar un marco metodológico integral para identificar y superar las barreras no tecnológicas en la adopción de la inteligencia artificial en el ámbito médico.',
         'about.description2': 'El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos Lingüísticos (GMLs) e IA generativa en medicina.',
         'about.duration': 'Duración',
         'about.durationText': 'Septiembre 2025 - Agosto 2028',
@@ -106,7 +106,7 @@ const translations = {
         // About Section
         'about.title': 'About the Project',
         'about.what': 'What is CONFIIA?',
-        'about.description1': 'CONFIIA is a research project funded by the Spanish Ministry of Science, Innovation and Universities that seeks to develop a comprehensive methodological framework to identify and overcome non-technological barriers in the adoption of artificial intelligence in the medical field.',
+        'about.description1': 'CONFIIA is a research project funded by the Ministry of Science, Innovation and Universities, State Research Agency, Government of Spain and co-funded by the European Social Fund Plus that seeks to develop a comprehensive methodological framework to identify and overcome non-technological barriers in the adoption of artificial intelligence in the medical field.',
         'about.description2': 'The project focuses especially on the dynamics of trust between healthcare professionals, patients and AI systems, with special attention to the integration and evaluation of Large Language Models (LLMs) and generative AI in medicine.',
         'about.duration': 'Duration',
         'about.durationText': 'September 2025 - August 2028',
