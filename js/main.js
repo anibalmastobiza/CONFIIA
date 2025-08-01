@@ -31,7 +31,7 @@ const translations = {
         'about.title': 'Sobre el Proyecto',
         'about.what': '¿Qué es CONFIIA?',
         'about.description1': 'CONFIIA es un proyecto de investigación financiado por el Ministerio de Ciencia, Innovación y Universidades, Agencia Estatal de Investigación, Gobierno de España y co-financiado por el Fondo Social Europeo Plus que busca desarrollar un marco metodológico integral para identificar y superar las barreras no tecnológicas en la adopción de la inteligencia artificial en el ámbito médico.',
-        'about.description2': 'El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos de Lenguaje (GML) e IA generativa en medicina.',
+        'about.description2': 'El proyecto se centra especialmente en las dinámicas de confianza entre profesionales sanitarios, pacientes y sistemas de IA, con especial atención a la integración y evaluación de Grandes Modelos Lingüísticos (GMLs) e IA generativa en medicina.',
         'about.duration': 'Duración',
         'about.durationText': 'Septiembre 2025 - Agosto 2028',
         'about.institutions': 'Instituciones',
@@ -163,52 +163,20 @@ const translations = {
     }
 };
 
+// Function to translate the page
 function translatePage(lang) {
     document.querySelectorAll('[data-i18n]').forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
-            // Handle different element types
-            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                element.placeholder = translations[lang][key];
-            } else if (element.tagName === 'META') {
-                element.content = translations[lang][key];
-            } else {
-                element.textContent = translations[lang][key];
-            }
-        } else {
-            console.warn(`Missing translation for key: ${key} in language: ${lang}`);
+            element.textContent = translations[lang][key];
         }
     });
     
-    // Fix language button selector - target the span inside
-    const langButton = document.querySelector('.lang-btn span');
+    // Update language button
+    const langButton = document.querySelector('.lang-btn');
     if (langButton) {
         langButton.textContent = lang === 'es' ? 'EN' : 'ES';
     }
-    
-    // Save language preference
-    localStorage.setItem('language', lang);
-    currentLang = lang;
-    
-    // Update HTML lang attribute
-    document.documentElement.lang = lang;
-}
-
-// Also, ensure translations run after dynamic content loads
-const observer = new MutationObserver(() => {
-    translatePage(currentLang);
-});
-
-observer.observe(document.body, {
-    childList: true,
-    subtree: true
-});
-    
-  // Update language button
-const langButton = document.querySelector('.lang-btn span');
-if (langButton) {
-    langButton.textContent = lang === 'es' ? 'EN' : 'ES';
-}
     
     // Save language preference
     localStorage.setItem('language', lang);
