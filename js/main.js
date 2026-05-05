@@ -14,6 +14,7 @@ const translations = {
         // Navigation
         'nav.home': 'Inicio',
         'nav.about': 'Sobre el Proyecto',
+        'nav.whoWeAre': 'Quiénes somos',
         'nav.team': 'Equipo',
         'nav.objectives': 'Objetivos',
         'nav.methodology': 'Metodología',
@@ -39,6 +40,23 @@ const translations = {
         'about.area': 'Área temática',
         'about.areaText': 'Salud, IA, Filosofía, Ciencias Cognitivas',
         
+        // Who We Are Section
+        'whoWeAre.title': 'Quiénes somos',
+        'whoWeAre.pi1Badge': 'IP1 · Investigador Principal',
+        'whoWeAre.copiBadge': 'CoIP · Co-Investigador Principal',
+        'whoWeAre.teamTitle': 'Equipo investigador',
+        'whoWeAre.ramon.role': 'Profesor de Bioética y de Psicología de la salud en la Escuela de Enfermería y Fisioterapia San Juan de Dios, Universidad Pontificia Comillas',
+        'whoWeAre.anibal.role': 'Profesor-Investigador EMERGIA, especializado en ciencias cognitivas y éticas aplicadas, Universidad de Granada',
+        'whoWeAre.belen.role': 'Investigadora predoctoral en Ética y filosofía, Centro de Ciencias Humanas y Sociales (CCHS - CSIC)',
+        'whoWeAre.jose.role': 'Docente-Investigador en Ciencias de la Salud, Universidad Pontificia Comillas',
+        'whoWeAre.marcos.role': 'Profesor de Bioética, Universidad Complutense de Madrid',
+        'whoWeAre.mar.role': 'Estudiante de doctorado en Bioética, Universidad de Granada',
+        'whoWeAre.natividad.role': 'Investigadora Posdoctoral Catalina Ruiz, Universidad de La Laguna',
+        'whoWeAre.patricia.role': 'Profesional tecnológica especializada en Inteligencia Artificial y Computación Cuántica, Universidad Nebrija',
+        'whoWeAre.pedro.role': 'Innovación, diseño y fabricación digital en Ciencias de la Salud. Fundación San Juan de Dios - SOUL Hi Hub. Universidad Pontificia Comillas',
+        'whoWeAre.rafael.role': 'Profesor Titular, University of Southampton',
+        'whoWeAre.txetxu.role': 'Investigador Científico, Instituto de Filosofía, Grupo de Ética Aplicada, Centro de Ciencias Humanas y Sociales (CCHS - CSIC)',
+
         // Team Section
         'team.title': 'Equipo de Investigación',
         'team.pi': 'Investigador Principal (IP1)',
@@ -90,6 +108,7 @@ const translations = {
         // Navigation
         'nav.home': 'Home',
         'nav.about': 'About the Project',
+        'nav.whoWeAre': 'About Us',
         'nav.team': 'Team',
         'nav.objectives': 'Objectives',
         'nav.methodology': 'Methodology',
@@ -115,6 +134,23 @@ const translations = {
         'about.area': 'Thematic area',
         'about.areaText': 'Health, AI, Philosophy, Cognitive Sciences',
         
+        // Who We Are Section
+        'whoWeAre.title': 'About Us',
+        'whoWeAre.pi1Badge': 'PI1 · Principal Investigator',
+        'whoWeAre.copiBadge': 'Co-PI · Co-Principal Investigator',
+        'whoWeAre.teamTitle': 'Research team',
+        'whoWeAre.ramon.role': 'Professor of Bioethics and Health Psychology at the School of Nursing and Physiotherapy San Juan de Dios, Comillas Pontifical University',
+        'whoWeAre.anibal.role': 'EMERGIA Research Professor, specialised in cognitive and applied ethics sciences, University of Granada',
+        'whoWeAre.belen.role': 'Predoctoral researcher in Ethics and Philosophy, Centre for Human and Social Sciences (CCHS - CSIC)',
+        'whoWeAre.jose.role': 'Teaching-Researcher in Health Sciences, Comillas Pontifical University',
+        'whoWeAre.marcos.role': 'Professor of Bioethics, Complutense University of Madrid',
+        'whoWeAre.mar.role': 'PhD student in Bioethics, University of Granada',
+        'whoWeAre.natividad.role': 'Catalina Ruiz Postdoctoral Researcher, University of La Laguna',
+        'whoWeAre.patricia.role': 'Technology professional specialised in Artificial Intelligence and Quantum Computing, Nebrija University',
+        'whoWeAre.pedro.role': 'Innovation, design and digital manufacturing in Health Sciences. San Juan de Dios Foundation - SOUL Hi Hub. Comillas Pontifical University',
+        'whoWeAre.rafael.role': 'Senior Lecturer, University of Southampton',
+        'whoWeAre.txetxu.role': 'Research Scientist, Institute of Philosophy, Applied Ethics Group, Centre for Human and Social Sciences (CCHS - CSIC)',
+
         // Team Section
         'team.title': 'Research Team',
         'team.pi': 'Principal Investigator (PI1)',
