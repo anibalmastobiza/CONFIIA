@@ -56,6 +56,10 @@ const translations = {
         'whoWeAre.pedro.role': 'Innovación, diseño y fabricación digital en Ciencias de la Salud. Fundación San Juan de Dios - SOUL Hi Hub. Universidad Pontificia Comillas',
         'whoWeAre.rafael.role': 'Profesor Titular, University of Southampton',
         'whoWeAre.txetxu.role': 'Investigador Científico, Instituto de Filosofía, Grupo de Ética Aplicada, Centro de Ciencias Humanas y Sociales (CCHS - CSIC)',
+        'whoWeAre.jon.role': 'Juan de la Cierva Fellow, Instituto de Filosofía, Consejo Superior de Investigaciones Científicas',
+        'whoWeAre.oscar.role': 'Profesor de Medicina Legal, Universidad Europea Madrid',
+        'whoWeAre.francisco.role': 'Presidente, Sociedad Ecuatoriana de Bioética',
+        'whoWeAre.franciscoII.role': 'Profesor de Filosofía política y de la tecnología, Universidad de Chile',
 
         // Team Section
         'team.title': 'Equipo de Investigación',
@@ -150,6 +154,10 @@ const translations = {
         'whoWeAre.pedro.role': 'Innovation, design and digital manufacturing in Health Sciences. San Juan de Dios Foundation - SOUL Hi Hub. Comillas Pontifical University',
         'whoWeAre.rafael.role': 'Senior Lecturer, University of Southampton',
         'whoWeAre.txetxu.role': 'Research Scientist, Institute of Philosophy, Applied Ethics Group, Centre for Human and Social Sciences (CCHS - CSIC)',
+        'whoWeAre.jon.role': 'Juan de la Cierva Fellow, Institute of Philosophy, Spanish National Research Council',
+        'whoWeAre.oscar.role': 'Professor of Legal Medicine, Universidad Europea Madrid',
+        'whoWeAre.francisco.role': 'President, Ecuadorian Society of Bioethics',
+        'whoWeAre.franciscoII.role': 'Professor of Political Philosophy and Philosophy of Technology, University of Chile',
 
         // Team Section
         'team.title': 'Research Team',
