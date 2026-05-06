@@ -61,6 +61,7 @@ const translations = {
         'whoWeAre.francisco.role': 'Presidente, Sociedad Ecuatoriana de Bioética',
         'whoWeAre.franciscoII.role': 'Profesor de Filosofía política y de la tecnología, Universidad de Chile',
         'whoWeAre.benjamin.role': 'Director del Instituto de Ética Clínica Francisco Vallés',
+        'whoWeAre.murilo.role': 'Investigador, Department of Drug Policy and Pharmaceutical Assistance (NAF), National School of Public Health (ENSP), Oswaldo Cruz Foundation (Fiocruz)',
 
         // Team Section
         'team.title': 'Equipo de Investigación',
@@ -160,6 +161,7 @@ const translations = {
         'whoWeAre.francisco.role': 'President, Ecuadorian Society of Bioethics',
         'whoWeAre.franciscoII.role': 'Professor of Political Philosophy and Philosophy of Technology, University of Chile',
         'whoWeAre.benjamin.role': 'Director of the Francisco Vallés Institute of Clinical Ethics',
+        'whoWeAre.murilo.role': 'Researcher, Department of Drug Policy and Pharmaceutical Assistance (NAF), National School of Public Health (ENSP), Oswaldo Cruz Foundation (Fiocruz)',
 
         // Team Section
         'team.title': 'Research Team',
