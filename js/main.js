@@ -36,7 +36,7 @@ const translations = {
         'about.duration': 'Duración',
         'about.durationText': 'Septiembre 2025 - Agosto 2028',
         'about.institutions': 'Instituciones',
-        'about.institutionsText': 'Universidad de Granada, Universidad Pontificia Comillas, CSIC, Universidad de Chile, University of Southampton, Universidad Europea Madrid, Instituto de Ética Clínica Francisco Vallés',
+        'about.institutionsText': 'Universidad de Granada, Universidad Pontificia Comillas, CSIC, Universidad de Chile, University of Southampton, Universidad Europea Madrid, Instituto de Ética Clínica Francisco Vallés, Escuela Nacional de Salud Pública (ENSP), Fundación Oswaldo Cruz (Fiocruz)',
         'about.area': 'Área temática',
         'about.areaText': 'Salud, IA, Filosofía, Ciencias Cognitivas',
         
@@ -136,7 +136,7 @@ const translations = {
         'about.duration': 'Duration',
         'about.durationText': 'September 2025 - August 2028',
         'about.institutions': 'Institutions',
-        'about.institutionsText': 'University of Granada, Comillas Pontifical University, CSIC, University of Chile, University of Southampton, Universidad Europea Madrid, Francisco Vallés Institute of Clinical Ethics',
+        'about.institutionsText': 'University of Granada, Comillas Pontifical University, CSIC, University of Chile, University of Southampton, Universidad Europea Madrid, Francisco Vallés Institute of Clinical Ethics, National School of Public Health (ENSP), Oswaldo Cruz Foundation (Fiocruz)',
         'about.area': 'Thematic area',
         'about.areaText': 'Health, AI, Philosophy, Cognitive Sciences',
         
